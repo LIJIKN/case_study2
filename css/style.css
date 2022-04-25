@@ -1,0 +1,42 @@
+*{padding: 0px;
+    
+    margin: 0Px;}
+    
+    /*LOGIN*/
+    
+    body{background-color:lightgreen;}
+    .log1
+    {
+        
+        border: 2px solid red;
+        background-color: beige;
+        height: 30em;
+        width: 20em;
+        margin-top: 5%;
+        margin-left: 40%;
+        padding: 50px;
+        background-color: rgb(148, 177, 216);
+    }
+    
+    .log1 h2
+    {
+        text-align: center;
+    }
+    .log1 input
+    {
+        height: 2.5em;
+        width: 100%;
+    }
+    #button
+{
+    margin-left: 15%;
+    width: 70%;
+    height: 2.8em;
+    color: white;
+    background-color: blue;
+}
+
+#demo
+{   margin-left: 5%;
+    line-height: 200%;
+}
