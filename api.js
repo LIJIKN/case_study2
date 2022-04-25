@@ -14,12 +14,12 @@ xhttp.onreadystatechange = function()
         for (var i=0;i<response.length;i++)
         if(response[i].completed==true)
         {
-            output += "<input type=checkbox checked disable>" + "  "+response[i].title + "</input>" +"<br>";
+            output += "<input type=checkbox checked disable>" + "  "+response[i].title + "</input>" +"<br>"+"<hr>";
         }
                         
           else 
           { 
-               output += "<input type=checkbox id=check >" + "   "+  response[i].title +"</input >" +"<br>";
+               output += "<input type=checkbox id=check >" + "   "+  response[i].title +"</input >" +"<br>"+ "<hr>";
           }
         document.getElementById("demo").innerHTML= output;
     }
